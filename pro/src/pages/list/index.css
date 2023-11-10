@@ -1,0 +1,198 @@
+.list {
+    background: #fff;
+}
+
+.list .header {
+    width: 100%;
+    height: 60px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.line {
+    margin-top: 15px;
+    height: 3px;
+    background: #ccc;
+}
+
+.list h1 {
+    float: left;
+    width: 138px;
+    margin-top: 11px;
+}
+
+.list h1 img {
+    width: 138px;
+    border: none;
+}
+
+.list .slogan {
+    float: left;
+    margin: 13px 0 0 22px;
+}
+
+.content {
+    background: #fff;
+}
+
+.content li {
+    height: 242px;
+    width: 960px;
+    position: relative;
+    background: #fff;
+    transition: all .2s ease-in-out;
+    padding-left: 20px;
+}
+
+.content li .pic {
+    position: absolute;
+    left: 20px;
+    top: 21px;
+    width: 200px;
+    height: 200px;
+}
+
+.content li .name {
+    position: absolute;
+    left: 240px;
+    top: 21px;
+    line-height: 20px;
+    height: 20px;
+    width: 720px;
+    overflow: hidden;
+}
+
+.content li .name a {
+    font-size: 14px;
+    color: #1a66b3;
+    font-family: simsun;
+}
+
+.content li .detail {
+    position: absolute;
+    left: 240px;
+    top: 100px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    color: #333;
+    width: 720px;
+    font-size: 14px;
+}
+
+.content li .price {
+    position: absolute;
+    left: 240px;
+    top: 48px;
+    font-family: "arial";
+    line-height: 30px;
+    width: 720px;
+}
+
+.content .price .now_price {
+    color: #ff2832;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.content .price .default_price {
+    color: #969696;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.content .price .pre_price {
+    color: #969696;
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.content li:hover {
+    background: #f8f8f8;
+}
+
+.content li .shop_button {
+    position: relative;
+}
+
+.content li .bottom_p {
+    position: absolute;
+    left: 222px;
+    top: 170px;
+}
+
+.e_price {
+    font-family: arial, 'Microsoft Yahei';
+    font-size: 14px;
+    color: #646464;
+    margin-left: 10px;
+}
+
+.e_price i {
+    color: #214c90;
+    font-family: arial;
+    font-size: 18px;
+}
+
+.price .e_price span {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    display: inline-block;
+    background-color: #739cde;
+    color: white;
+    padding: 2px 3px;
+    line-height: 12px;
+    border-radius: 2px;
+    margin: 0 4px 0 5px;
+}
+
+.btn_cart {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.btn_cart {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.btn_collect {
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    background: #ffedee;
+    color: #ff2832;
+    border: 1px solid #ff2832;
+    display: inline-block;
+    zoom: 1;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+}

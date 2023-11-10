@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.66666667;
+    color: #363636;
+    background: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    line-height: 1.1;
+    color: inherit;
+    font-family: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #333;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 0;
+}
+
+i {
+    font-style: normal;
+}
